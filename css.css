@@ -13,7 +13,6 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(NameLogos/FAicons/fatima-alattas-favicon-color.png);
     background-size: 250px;
     background-repeat: no-repeat; 
     background-position: right;
@@ -66,6 +65,7 @@ nav ul li a:hover::after{
 }
 
 .headertext{
+    text-align: center;
     margin-top: 20%;
     font-size: 30px;
 }
@@ -79,6 +79,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0px;
     color: #ababab;
+    margin-top: -100px;
 }
 
 .row{
@@ -107,6 +108,10 @@ nav ul li a:hover::after{
     text-align: center;
 }
 
+.paraghraph{
+    margin: 20px 40px 40px 0px;
+}
+
 .tabTitles{
     display: flex;
     margin: 20px 0px 40px;
@@ -133,4 +138,18 @@ nav ul li a:hover::after{
 
 .tapLinks.activeLink::after{
     width: 50%;
+}
+
+.tapLinks.activeLink:hover::after{
+    width: 100%;
+}
+
+.tabContent ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tabContent ul li span{
+    color: #e1c664dc;
+    font-size: 14px;
 }
