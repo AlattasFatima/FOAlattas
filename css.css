@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: 'poppins', sans-serif;
+    font-family: 'didot';
     box-sizing: border-box;
 }
 
@@ -103,13 +103,15 @@ nav ul li a:hover::after{
 
 .subtitle{
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 1000;
     color: white;
     text-align: center;
+
 }
 
 .paraghraph{
     margin: 20px 40px 40px 0px;
+    font-size: large;
 }
 
 .tabTitles{
@@ -152,4 +154,12 @@ nav ul li a:hover::after{
 .tabContent ul li span{
     color: #e1c664dc;
     font-size: 14px;
+}
+  
+.tabContent{
+    display: none;
+}
+
+.tabContent.activeTab{
+    display: block;
 }
